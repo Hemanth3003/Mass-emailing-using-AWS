@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "removeComments": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": true,
+    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+  },
+  "include": [
+    "./src/"
+  ],
+  "exclude": [
+    "node_modules/**/*",
+    ".vscode/**/*"
+  ],
+  "lib": ["es2015"]
+}
